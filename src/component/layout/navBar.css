@@ -1,0 +1,67 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #fff;
+}
+.logo-wrapper{
+    display: inline-block;
+}
+.logo-wrapper img{
+    width: 140px;
+}
+.navigation{
+    display: flex;
+
+}
+.navigation li{
+    padding:5px 30px;
+}
+.nav-link{
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+.nav-link:hover{
+    color:red;
+}
+.note{
+    text-align: right;
+    position: relative;
+    top:11px;
+    padding-right:100px;
+    text-decoration: underline;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+   padding:15px;    
+   padding-left:20%;
+}
+.footer-link  li{
+    margin-bottom: 15px;
+}
+.footer-link a{
+    font-size: 15px;
+    color:#000;
+}
+.contact-us p{
+    font-size: 16px;
+
+}
+.sidebar{
+    position: fixed;
+    height:100vh;
+    width: 20%;
+    background: linear-gradient(45deg, rgb(54, 25, 74) 0%, hsla(358, 82.5%, 49.4%, 0.9) 100%);
+}
+.sidebar-link li{
+    margin-bottom: 15px;
+}
+.sidebar-link a{
+    display: block;
+    padding:15px 5px;
+    color:#fff;
+    font-weight: 600;
+}
